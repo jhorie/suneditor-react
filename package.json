@@ -4,7 +4,7 @@
   "description": "A React Component for Suneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mkhstar/suneditor-react"
+    "url": "https://github.com/jhorie/suneditor-react"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -47,14 +47,14 @@
     "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "suneditor": "^2.44.10",
+    "suneditor": "^2.47.0",
     "ts-jest": "^29.0.5",
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0",
-    "suneditor": "^2.44.10"
+    "suneditor": "^2.47.0"
   },
   "browserslist": [
     ">0.2%",
