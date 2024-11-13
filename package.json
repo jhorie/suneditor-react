@@ -47,14 +47,14 @@
     "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "suneditor": "^2.47.0",
+    "suneditor": "github:Staninna/suneditor",
     "ts-jest": "^29.0.5",
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0",
-    "suneditor": "^2.47.0"
+    "suneditor": "github:Staninna/suneditor"
   },
   "browserslist": [
     ">0.2%",
