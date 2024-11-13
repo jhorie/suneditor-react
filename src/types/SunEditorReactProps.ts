@@ -120,5 +120,4 @@ export interface SunEditorReactProps
     SunEditorDefaultStateProps,
     SunEditorReactiveProps {
   setOptions?: SunEditorOptions;
-  strictMode?: boolean;
 }

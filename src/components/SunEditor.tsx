@@ -30,7 +30,6 @@ const SunEditor: FC<SunEditorReactProps> = (props) => {
     autoFocus,
     onBlur,
     onLoad,
-    strictMode = false,
   } = props;
 
   const txtArea = useRef<HTMLTextAreaElement>(null);
@@ -51,11 +50,7 @@ const SunEditor: FC<SunEditorReactProps> = (props) => {
 
     if (name && options.value) txtArea.current!.value = options.value;
 
-    editor.current = suneditor.create(txtArea.current!, {
-      ...options,
-      // @ts-ignore
-      strictMode,
-    });
+    editor.current = suneditor.create(txtArea.current!, options);
 
     if (getSunEditorInstance) getSunEditorInstance(editor.current);
 
