@@ -47,14 +47,14 @@
     "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "suneditor": "https://github.com/Staninna/suneditor#a75eb870f5d658fd0078a606202f6b74806afc87",
+    "suneditor": "https://github.com/Staninna/suneditor#dd35722a88028bd8203af2a7c0f710631f92e88f",
     "ts-jest": "^29.0.5",
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0",
-    "suneditor": "https://github.com/Staninna/suneditor#a75eb870f5d658fd0078a606202f6b74806afc87"
+    "suneditor": "https://github.com/Staninna/suneditor#dd35722a88028bd8203af2a7c0f710631f92e88f"
   },
   "browserslist": [
     ">0.2%",
